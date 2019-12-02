@@ -30,8 +30,6 @@ class FormContainer extends Component {
 }
 
 const wrapper = document.getElementById('create-article-form');
-console.log('wrapper', wrapper);
-
 wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
 
 export default FormContainer;
